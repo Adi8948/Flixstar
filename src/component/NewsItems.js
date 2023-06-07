@@ -5,7 +5,6 @@ import InfiniteScroll from 'react-infinite-scroll-component'
 import Spinner from './Spinner'
 export class NewsItems extends Component {
    
-
     static defaultProps={
         Country :'in',
         pageSize:2,
@@ -55,7 +54,6 @@ export class NewsItems extends Component {
             page: this.state.page + 1
         })
     }
-
 
     render() {
         return (

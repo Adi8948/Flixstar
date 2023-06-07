@@ -24,12 +24,16 @@ export default function Navbar() {
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/Romance">Romance</Link>
               </li>
+              {/* <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/Subscribe">Subscribe</Link>
+              </li> */}
             </ul>
             <form className="d-flex" role="search">
               {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> */}
               {/* <button className="btn btn-outline-light" type="submit">Search</button> */}
               <input type="text" className="search-box" placeholder="search" />
             </form>
+            <Link to="/Subscribe" className="btn btn-primary mx-2">Subscribe</Link>
           </div>
         </div>
       </nav>

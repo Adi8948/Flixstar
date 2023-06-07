@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Action from './component/Action';
 import Scifi from './component/Scifi';
 import Romance from './component/Romance';
+import Subscription from './component/Subscription';
 
 
 
@@ -39,6 +40,10 @@ function App() {
           <Navbar />
           <Romance />
           <Cards3/>
+        </Route>
+        <Route exact path='/Subscribe'>
+          <Navbar />
+          <Subscription/>
         </Route>
       </Switch>
     </Router>
