@@ -69,7 +69,7 @@ const Scifi = () => {
 
         return (
             <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
-                <img src={image} className="d-block w-100" style={{ objectFit: 'cover', height: '550px' }} alt={`Slide ${index + 1}`} />
+                <img src={image} className="d-block w-100" style={{  height: '550px' }} alt={`Slide ${index + 1}`} />
                 <div className="carousel-caption d-none d-md-block">
                     <h5>{name}</h5>
                     <p>{des}</p>
